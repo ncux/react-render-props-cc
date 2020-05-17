@@ -1,0 +1,14 @@
+
+.container {
+    margin: 1rem auto;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+}
