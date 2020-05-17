@@ -22,12 +22,10 @@ export const MovieList = props => {
     const renderMovies = (
         movies.length ? (
             movies.map(movie => (
-
                 <div key={movie.id}>
                     <img src={ `${movie_poster}${movie.poster_path}` } className={styles.poster} />
                 </div>
             ))
-
         ) : (
             <p>Loading ...</p>
         )
